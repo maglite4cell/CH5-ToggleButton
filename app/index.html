@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Crestron CH5 || HTML 5 UI Development Showcase</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <!-- inject:css -->
+    <link rel="stylesheet" href="./assets/css/external.css">
+    <link rel="stylesheet" href="./assets/css/light-theme.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- endinject -->
+</head>
+
+<body>
+    <div id="loader" class="loader"></div>
+    <section class="main-section">
+        <!-- Header start -->
+        <!-- Header end -->
+        <div class="row no-gutters">
+            <ch5-background receivestateurl="common_background_url" url="./assets/img/ch5-stone-light-bg.jpg">
+            </ch5-background>
+            <ch5-triggerview class="triggerview col" activeView="activeIndex" gestureable="true" endless="false">
+                <!-- Buttons start -->
+                <ch5-triggerview-child>
+                    <ch5-import-htmlsnippet class="buttons-page" url="./components/buttons/buttons.html">
+                    </ch5-import-htmlsnippet>
+                </ch5-triggerview-child>
+                <!-- Buttons end -->
+            </ch5-triggerview>
+        </div>
+    </section>
+
+    <!-- inject:js -->
+
+    <script src="./assets/vendor/cr-com-lib.js"></script>
+    <script src="./assets/vendor/component.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+{
+  "cues": [{
+      "type": "boolean",
+      "event": "trigger_type_change_btn1",
+      "trigger": true,
+      "actions": [{
+                  "type": "string",
+                  "state": "buton1_state",
+                  "logic": "set",
+                  "value": "success"
+                },
+                {
+                  "type": "string",
+                  "state": "buton2_state",
+                  "logic": "set",
+                  "value": "default"
+                },
+                {
+                  "type": "string",
+                  "state": "buton3_state",
+                  "logic": "set",
+                  "value": "default"
+                },
+                {
+                  "type": "string",
+                  "state": "buton4_state",
+                  "logic": "set",
+                  "value": "default"
+                },
+                {
+                  "type": "string",
+                  "state": "buton1_label",
+                  "logic": "set",
+                  "value": "Selected"
+                },
+                {
+                  "type": "string",
+                  "state": "buton2_label",
+                  "logic": "set",
+                  "value": "Button 2"
+                },
+                {
+                  "type": "string",
+                  "state": "buton3_label",
+                  "logic": "set",
+                  "value": "Button 3"
+                },
+                {
+                  "type": "string",
+                  "state": "buton4_label",
+                  "logic": "set",
+                  "value": "Button 4"
+                }
+              ]
+    },
+    {
+      "type": "boolean",
+      "event": "trigger_type_change_btn2",
+      "trigger": true,
+      "actions": [{
+        "type": "string",
+        "state": "buton1_state",
+        "logic": "set",
+        "value": "default"
+      },
+      {
+        "type": "string",
+        "state": "buton2_state",
+        "logic": "set",
+        "value": "success"
+      },
+      {
+        "type": "string",
+        "state": "buton3_state",
+        "logic": "set",
+        "value": "default"
+      },
+      {
+        "type": "string",
+        "state": "buton4_state",
+        "logic": "set",
+        "value": "default"
+      },
+      {
+        "type": "string",
+        "state": "buton1_label",
+        "logic": "set",
+        "value": "Button 1"
+      },
+      {
+        "type": "string",
+        "state": "buton2_label",
+        "logic": "set",
+        "value": "Selected"
+      },
+      {
+        "type": "string",
+        "state": "buton3_label",
+        "logic": "set",
+        "value": "Button 3"
+      },
+      {
+        "type": "string",
+        "state": "buton4_label",
+        "logic": "set",
+        "value": "Button 4"
+      }]
+    },
+    {
+      "type": "boolean",
+      "event": "trigger_type_change_btn3",
+      "trigger": true,
+      "actions": [{
+        "type": "string",
+        "state": "buton1_state",
+        "logic": "set",
+        "value": "default"
+      },
+      {
+        "type": "string",
+        "state": "buton2_state",
+        "logic": "set",
+        "value": "default"
+      },
+      {
+        "type": "string",
+        "state": "buton3_state",
+        "logic": "set",
+        "value": "success"
+      },
+      {
+        "type": "string",
+        "state": "buton4_state",
+        "logic": "set",
+        "value": "default"
+      },
+      {
+        "type": "string",
+        "state": "buton1_label",
+        "logic": "set",
+        "value": "Button 1"
+      },
+      {
+        "type": "string",
+        "state": "buton2_label",
+        "logic": "set",
+        "value": "Button 2"
+      },
+      {
+        "type": "string",
+        "state": "buton3_label",
+        "logic": "set",
+        "value": "Selected"
+      },
+      {
+        "type": "string",
+        "state": "buton4_label",
+        "logic": "set",
+        "value": "Button 4"
+      }]
+    },
+    {
+      "type": "boolean",
+      "event": "trigger_type_change_btn4",
+      "trigger": true,
+      "actions": [{
+        "type": "string",
+        "state": "buton1_state",
+        "logic": "set",
+        "value": "default"
+      },
+      {
+        "type": "string",
+        "state": "buton2_state",
+        "logic": "set",
+        "value": "default"
+      },
+      {
+        "type": "string",
+        "state": "buton3_state",
+        "logic": "set",
+        "value": "default"
+      },
+      {
+        "type": "string",
+        "state": "buton4_state",
+        "logic": "set",
+        "value": "success"
+      },
+      {
+        "type": "string",
+        "state": "buton1_label",
+        "logic": "set",
+        "value": "Button 1"
+      },
+      {
+        "type": "string",
+        "state": "buton2_label",
+        "logic": "set",
+        "value": "Button 2"
+      },
+      {
+        "type": "string",
+        "state": "buton3_label",
+        "logic": "set",
+        "value": "Button 3"
+      },
+      {
+        "type": "string",
+        "state": "buton4_label",
+        "logic": "set",
+        "value": "Selected"
+      }]
+    }
+  ],
+  "onStart": [
+    {
+      "type": "string",
+      "state": "current_type",
+      "value": "danger"
+    }
+  ]
+}
