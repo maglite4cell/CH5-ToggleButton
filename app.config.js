@@ -1,7 +1,7 @@
 const path = require('path');
 const glob = require('glob');
 
-const appName = `Ch5VerticalSample`;
+const appName = `Toggle Test`;
 const basePath = path.resolve(__dirname);
 const distPath = `dist/${appName}`;
 const nodeModules = `./node_modules/`;
