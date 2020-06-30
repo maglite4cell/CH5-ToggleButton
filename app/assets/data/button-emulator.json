@@ -216,8 +216,27 @@
   "onStart": [
     {
       "type": "string",
-      "state": "current_type",
-      "value": "danger"
-    }
+      "state": "buton3_state",
+      "logic": "set",
+      "value": "default"
+    },
+    {
+      "type": "string",
+      "state": "buton3_state",
+      "logic": "set",
+      "value": "default"
+    },
+    {
+      "type": "string",
+      "state": "buton3_state",
+      "logic": "set",
+      "value": "default"
+    },
+    {
+      "type": "string",
+      "state": "buton3_state",
+      "logic": "set",
+      "value": "default"
+    },
   ]
 }
